@@ -50,8 +50,8 @@ class BookController extends Controller
     {
         $book->delete();
 
-        return "REGISTRO [$book->title] ELIMINADO";
+       // return "REGISTRO [$book->title] ELIMINADO";
         
-       // return response()->noContent();
+       return response()->noContent();
     }
 }
